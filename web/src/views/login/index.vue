@@ -72,7 +72,6 @@ const rules: FormInstance['rules'] = {
   username: [{ required: true, message: '请输入账号' }],
   password: [
     { required: true, message: '请输入密码' },
-    { match: Regexp.Password, message: '输入密码格式不正确' }
   ]
 }
 
